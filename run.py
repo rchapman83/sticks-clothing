@@ -13,5 +13,5 @@ subprocess.call(['gunicorn', '-c', c, a])
 print('...FIN')
 
 # Run the Flask app server
-# from app import application
-# application.run(host='0.0.0.0', port=8080)
+# from app import sticksWeb
+# sticksWeb.run(host='0.0.0.0', port=8080)
