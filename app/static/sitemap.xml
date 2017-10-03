@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.sticks.clothing/</loc>
+  <lastmod>2016-10-23T18:15:40+00:00</lastmod>
+  <news:news>
+     <news:publication>
+       <news:name>The Example Times</news:name>
+       <news:language>en</news:language>
+     </news:publication>
+     <news:genres>UserGenerated</news:genres>
+     <news:publication_date>2016-10-23</news:publication_date>
+     <news:title>Sticks Clothing</news:title>
+     <news:keywords>market, Sticks Clothing, mumpreneur, Geelong</news:keywords>
+   </news:news>
+</url>
+</urlset>
