@@ -8,6 +8,5 @@ from flask import Flask
 sticksWeb = Flask(__name__.split('.')[0], static_folder='static', template_folder='templates')
 sticksWeb.config.from_envvar('FLASK_SETTINGS')
 
-
 # Import all the views for this web app
 from . import routes
