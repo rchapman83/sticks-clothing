@@ -1,4 +1,4 @@
 flask==0.12.2
-gunicorn
+gunicorn==19.7.1
 setproctitle
 futures
