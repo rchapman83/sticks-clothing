@@ -4,11 +4,11 @@
 from os import environ
 import subprocess
 
-# c = environ.get('APP_CONFIG')
-# a = environ.get('APP_MODULE')
+c = environ.get('APP_CONFIG')
+a = environ.get('APP_MODULE')
 
 # Run Gunicorn to serve the app
-print('START')
+print('START Green Unicorn')
 subprocess.call(['gunicorn', '-c', c, a])
 
 # Run the Flask app server
