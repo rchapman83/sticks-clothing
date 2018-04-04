@@ -125,7 +125,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Roboto Mono', monospace;
-  background-image: url("{{ url_for('static', filename='images/6.png') }}");
+  background-image: url({{ url_for('static', filename='images/6.png') }});
   background-repeat: repeat space; 
   color: #222; }
 
