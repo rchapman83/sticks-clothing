@@ -2,13 +2,13 @@
 {% block title %}Err: 500{% endblock %}
 {% block content %}
 <div class="row" style="margin-top: 25%">
-    <div class="six columns" >
-	   <h4><strong>+</strong> 500</h4>
-	   <img src="{{ url_for('static', filename='images/11.png') }}" alt="500 image">
-				
+    <div class="three columns" >
+	   <img src="{{ url_for('static', filename='images/11.png') }}" alt="500 image" height="150" width="150">		
 	</div>
-	<div class="six columns">
-	   <p>Server stuffed up. Sorry.</p>
+	<div class="nine columns">
+	    <h1><strong>+</strong> 500</h1>
+	    <hr>
+	   <p>Internal server error. We hope to have this resolved shortly. </p>
     </div>
 </div>
 {% endblock %}
