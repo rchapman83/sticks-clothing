@@ -3,14 +3,14 @@
 <head>
     {% block head %}
 	<!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <title>{% block title %} {% endblock %}</title>
+    	<title>{% block title %} {% endblock %}</title>
 	<meta charset="utf-8">
-    <meta name="language" content="en">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="language" content="en">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Sticks Clothing based in Geelong, Victoria.">
 	<meta name="author" content="Rowan Chapman">
  	<meta name="keyphrases" content="Sticks Clothing, Dione Chapman">
-    <meta name="keywords" content="Dione, Chapman, sticks, clothing, Geelong, mumpreneur, sticksclothing">
+    	<meta name="keywords" content="Dione, Chapman, sticks, clothing, Geelong, mumpreneur, sticksclothing">
     
 	<!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,14 +27,16 @@
 
 	<!-- Google Junk –––––––––––––––––––––––––––––––––––––––––––––– -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78881158-1"></script>
 	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-78881158-1', 'auto');
-  		ga('send', 'pageview');
+ 	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-78881158-1');
 	</script>
+
     {% endblock %}
 </head>
 <body bgcolor="#ffffff">
