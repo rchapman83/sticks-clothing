@@ -12,7 +12,7 @@ try:
     print('START Green Unicorn')
     subprocess.call(['gunicorn', '-c', c, a])
 except RuntimeError:
-print('Unable to start application server')
+    print('Unable to start application server')
 
 # Run the Flask app server
 # from app import sticksWeb
