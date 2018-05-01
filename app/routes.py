@@ -10,6 +10,10 @@ from flask import Flask, render_template, request, url_for, send_from_directory
 def entry():
         return render_template('index.html')
 
+@sticksWeb.route('/backend')
+def back():
+        return 'logon page'
+
 @sticksWeb.route('/robots.txt')
 def robots_static():
   return send_from_directory(application.static_folder, request.path[1:])

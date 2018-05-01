@@ -5,7 +5,7 @@ import os
 
 
 bind = '0.0.0.0:8080'
-name = 'sticks-clothing'
+name = os.environ.get('PROJECT_NAME')
 backlog = 2048
 max_requests = 1000
 proc_name = os.environ.get('PROJECT_NAME')
