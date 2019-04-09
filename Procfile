@@ -1,3 +1,3 @@
-web: gunicorn -c config.py app:sticksWeb
+web: gunicorn app:sticksWeb
 # web: python app.py
 # web: python manage.py runserver 0.0.0.0:5000
